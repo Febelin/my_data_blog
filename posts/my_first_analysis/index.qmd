@@ -1,0 +1,13 @@
+---
+title: "Temperature and School Discipline: First Look"
+description: "Exploring the relationship between heat and office discipline referrals"
+author: "Febelin"  
+date: "2026-02-18"
+categories: [education policy, data visualization, R]
+image: "image.jpg"
+draft: false
+---
+
+
+## Introduction
+How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the 'heat-discipline' link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)
