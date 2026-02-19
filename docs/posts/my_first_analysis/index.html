@@ -8,9 +8,9 @@
 
 <meta name="author" content="Febelin">
 <meta name="dcterms.date" content="2026-02-18">
-<meta name="description" content="Exploring the relationship between heat and office discipline referrals">
+<meta name="description" content="This study investigates the online community migration of ‘TikTok Refugees’, users moving from TikTok (a US-based app) to RedNote (a China-based app). The research explores their motivations, platform usage, and privacy perceptions through a structured survey of 130 valid participants (N=130).">
 
-<title>Temperature and School Discipline: First Look – My Data Blog</title>
+<title>TikTok Refugee Geographic Characteristic Research – My Data Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -124,6 +153,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#project-progress" id="toc-project-progress" class="nav-link" data-scroll-target="#project-progress">Project Progress</a></li>
+  <li><a href="#project-progress-week-7" id="toc-project-progress-week-7" class="nav-link" data-scroll-target="#project-progress-week-7">Project Progress (Week 7)</a></li>
+  <li><a href="#preliminary-visualizations" id="toc-preliminary-visualizations" class="nav-link" data-scroll-target="#preliminary-visualizations">Preliminary Visualizations</a></li>
   </ul>
 </nav>
     </div>
@@ -132,17 +164,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Temperature and School Discipline: First Look</h1>
+<h1 class="title">TikTok Refugee Geographic Characteristic Research</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">education policy</div>
-    <div class="quarto-category">data visualization</div>
-    <div class="quarto-category">R</div>
+    <div class="quarto-category">Digital Migration</div>
+    <div class="quarto-category">Social Media</div>
+    <div class="quarto-category">RedNote</div>
+    <div class="quarto-category">Data Visualization</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Exploring the relationship between heat and office discipline referrals
+    This study investigates the online community migration of ‘TikTok Refugees’, users moving from TikTok (a US-based app) to RedNote (a China-based app). The research explores their motivations, platform usage, and privacy perceptions through a structured survey of 130 valid participants (N=130).
   </div>
 </div>
 
@@ -173,7 +206,28 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the ‘heat-discipline’ link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)</p>
+<p>The term <strong>“TikTok Refugees”</strong> describes a growing demographic of users who have migrated their digital presence from TikTok to RedNote (Xiaohongshu). This research explores the drivers behind this cross-platform migration, focusing on how geographic characteristics and privacy perceptions influence their transition between a US-based and a China-based ecosystem.</p>
+</section>
+<section id="project-progress" class="level2">
+<h2 class="anchored" data-anchor-id="project-progress">Project Progress</h2>
+</section>
+<section id="project-progress-week-7" class="level2">
+<h2 class="anchored" data-anchor-id="project-progress-week-7">Project Progress (Week 7)</h2>
+<p>This week, I focused on moving from raw data to a structured project environment. The following milestones have been achieved:</p>
+<ul>
+<li><strong>Website Framework Setup:</strong> Successfully deployed the initial Quarto blog structure and project repository. The platform is now ready to host interactive components and research updates.</li>
+<li><strong>Data Cleaning:</strong> Processed the raw survey data from <strong>130 valid participants (</strong><span class="math inline">\(N=130\)</span>). Key tasks included:
+<ul>
+<li>Standardizing geographic tags for mapping.</li>
+<li>Cleaning and categorizing platform usage frequency and duration.</li>
+</ul></li>
+<li><strong>Visualization Planning:</strong> Currently designing the exploratory data analysis phase.</li>
+</ul>
+</section>
+<section id="preliminary-visualizations" class="level2">
+<h2 class="anchored" data-anchor-id="preliminary-visualizations">Preliminary Visualizations</h2>
+<p><img src="Table1_participant_characteristics copy.png" class="img-fluid"></p>
+<p><strong>Note on Visualization:</strong> While the table above provides a precise numerical breakdown, I am currently prototyping interactive maps and correlation plots to better illustrate the geographic trends and user motivations.</p>
 
 
 </section>

@@ -4,7 +4,7 @@ description: "This study investigates the online community migration of 'TikTok 
 author: "Febelin"
 date: "2026-02-18"
 categories: [Digital Migration, Social Media, RedNote, Data Visualization]
-image: "image.jpg" 
+image: "image.png" 
 draft: false
 ---
 

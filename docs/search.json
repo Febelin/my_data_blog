@@ -2,22 +2,43 @@
   {
     "objectID": "posts/my_first_analysis/index.html",
     "href": "posts/my_first_analysis/index.html",
-    "title": "Temperature and School Discipline: First Look",
+    "title": "TikTok Refugee Geographic Characteristic Research",
     "section": "",
-    "text": "How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the ‘heat-discipline’ link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)"
+    "text": "The term “TikTok Refugees” describes a growing demographic of users who have migrated their digital presence from TikTok to RedNote (Xiaohongshu). This research explores the drivers behind this cross-platform migration, focusing on how geographic characteristics and privacy perceptions influence their transition between a US-based and a China-based ecosystem."
   },
   {
     "objectID": "posts/my_first_analysis/index.html#introduction",
     "href": "posts/my_first_analysis/index.html#introduction",
-    "title": "Temperature and School Discipline: First Look",
+    "title": "TikTok Refugee Geographic Characteristic Research",
     "section": "",
-    "text": "How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the ‘heat-discipline’ link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)"
+    "text": "The term “TikTok Refugees” describes a growing demographic of users who have migrated their digital presence from TikTok to RedNote (Xiaohongshu). This research explores the drivers behind this cross-platform migration, focusing on how geographic characteristics and privacy perceptions influence their transition between a US-based and a China-based ecosystem."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Data Science Blog",
     "section": "",
-    "text": "Temperature and School Discipline: First Look\n\n\n\neducation policy\n\ndata visualization\n\nR\n\n\n\nExploring the relationship between heat and office discipline referrals\n\n\n\n\n\nFeb 18, 2026\n\n\nFebelin\n\n\n\n\n\nNo matching items"
+    "text": "TikTok Refugee Geographic Characteristic Research\n\n\n\nDigital Migration\n\nSocial Media\n\nRedNote\n\nData Visualization\n\n\n\nThis study investigates the online community migration of ‘TikTok Refugees’, users moving from TikTok (a US-based app) to RedNote (a China-based app). The research explores their motivations, platform usage, and privacy perceptions through a structured survey of 130 valid participants (N=130).\n\n\n\n\n\nFeb 18, 2026\n\n\nFebelin\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/my_first_analysis/index.html#project-progress",
+    "href": "posts/my_first_analysis/index.html#project-progress",
+    "title": "TikTok Refugee Geographic Characteristic Research",
+    "section": "Project Progress",
+    "text": "Project Progress"
+  },
+  {
+    "objectID": "posts/my_first_analysis/index.html#project-progress-week-7",
+    "href": "posts/my_first_analysis/index.html#project-progress-week-7",
+    "title": "TikTok Refugee Geographic Characteristic Research",
+    "section": "Project Progress (Week 7)",
+    "text": "Project Progress (Week 7)\nThis week, I focused on moving from raw data to a structured project environment. The following milestones have been achieved:\n\nWebsite Framework Setup: Successfully deployed the initial Quarto blog structure and project repository. The platform is now ready to host interactive components and research updates.\nData Cleaning: Processed the raw survey data from 130 valid participants (\\(N=130\\)). Key tasks included:\n\nStandardizing geographic tags for mapping.\nCleaning and categorizing platform usage frequency and duration.\n\nVisualization Planning: Currently designing the exploratory data analysis phase."
+  },
+  {
+    "objectID": "posts/my_first_analysis/index.html#preliminary-visualizations",
+    "href": "posts/my_first_analysis/index.html#preliminary-visualizations",
+    "title": "TikTok Refugee Geographic Characteristic Research",
+    "section": "Preliminary Visualizations",
+    "text": "Preliminary Visualizations\n\nNote on Visualization: While the table above provides a precise numerical breakdown, I am currently prototyping interactive maps and correlation plots to better illustrate the geographic trends and user motivations."
   }
 ]
