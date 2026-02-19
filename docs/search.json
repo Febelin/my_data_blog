@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "posts/my_first_analysis/index.html",
+    "href": "posts/my_first_analysis/index.html",
+    "title": "Temperature and School Discipline: First Look",
+    "section": "",
+    "text": "How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the ‘heat-discipline’ link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)"
+  },
+  {
+    "objectID": "posts/my_first_analysis/index.html#introduction",
+    "href": "posts/my_first_analysis/index.html#introduction",
+    "title": "Temperature and School Discipline: First Look",
+    "section": "",
+    "text": "How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the ‘heat-discipline’ link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Data Science Blog",
+    "section": "",
+    "text": "Temperature and School Discipline: First Look\n\n\n\neducation policy\n\ndata visualization\n\nR\n\n\n\nExploring the relationship between heat and office discipline referrals\n\n\n\n\n\nFeb 18, 2026\n\n\nFebelin\n\n\n\n\n\nNo matching items"
+  }
+]

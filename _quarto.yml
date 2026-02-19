@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs        # ← GitHub Pages serves from here
+website:
+  title: "My Data Blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/Febelin
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme: cosmo          
+    css: styles.css
+    toc: true
+
+execute:
+  echo: true
+  warning: false
+  message: false
+  freeze: auto     
