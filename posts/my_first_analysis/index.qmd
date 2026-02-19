@@ -1,13 +1,31 @@
 ---
-title: "Temperature and School Discipline: First Look"
-description: "Exploring the relationship between heat and office discipline referrals"
-author: "Febelin"  
+title: "TikTok Refugee Geographic Characteristic Research"
+description: "This study investigates the online community migration of 'TikTok Refugees', users moving from TikTok (a US-based app) to RedNote (a China-based app). The research explores their motivations, platform usage, and privacy perceptions through a structured survey of 130 valid participants (N=130)."
+author: "Febelin"
 date: "2026-02-18"
-categories: [education policy, data visualization, R]
-image: "image.jpg"
+categories: [Digital Migration, Social Media, RedNote, Data Visualization]
+image: "image.jpg" 
 draft: false
 ---
 
-
 ## Introduction
-How much does the climate of a classroom depend on the climate outside? Using a dataset of school discipline referrals and historical weather patterns, this post visualizes the 'heat-discipline' link. Below, I’ll walk through the data cleaning process and present initial exploratory plots that highlight how extreme heat days differ from the seasonal norm (pretending i am a researcher who into this topic!)
+
+The term **"TikTok Refugees"** describes a growing demographic of users who have migrated their digital presence from TikTok to RedNote (Xiaohongshu). This research explores the drivers behind this cross-platform migration, focusing on how geographic characteristics and privacy perceptions influence their transition between a US-based and a China-based ecosystem.
+
+## Project Progress
+
+## Project Progress (Week 7)
+
+This week, I focused on moving from raw data to a structured project environment. The following milestones have been achieved:
+
+-   **Website Framework Setup:** Successfully deployed the initial Quarto blog structure and project repository. The platform is now ready to host interactive components and research updates.
+-   **Data Cleaning:** Processed the raw survey data from **130 valid participants (**$N=130$). Key tasks included:
+    -   Standardizing geographic tags for mapping.
+    -   Cleaning and categorizing platform usage frequency and duration.
+-   **Visualization Planning:** Currently designing the exploratory data analysis phase.
+
+## Preliminary Visualizations
+
+![](Table1_participant_characteristics%20copy.png)
+
+**Note on Visualization:** While the table above provides a precise numerical breakdown, I am currently prototyping interactive maps and correlation plots to better illustrate the geographic trends and user motivations.
